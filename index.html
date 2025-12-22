@@ -16,6 +16,16 @@
         h1 { font-size: 3rem; margin-bottom: 20px; color: #ffd32a; text-shadow: 0 0 10px #ffd32a; }
         .viral-tag { background: #ffd32a; color: #000; padding: 5px 15px; border-radius: 100px; font-weight: bold; font-size: 0.8rem; text-transform: uppercase; }
     </style>
+<style>
+    body::after {
+        content: "";
+        position: fixed;
+        top: 0; left: 0; width: 100%; height: 100%;
+        pointer-events: none;
+        z-index: 9999;
+         background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.05) 1px, transparent 0); background-size: 24px 24px; 
+    }
+    </style>
 </head>
 <body>
     <div class="glass">
